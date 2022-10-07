@@ -1,0 +1,30 @@
+/* @font-face {
+    font-family: "Asap";
+    src: url(../fonts/Asap/asap-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url(../fonts/Asap/asap-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url(../fonts/Asap/asap-bold.ttf);
+    font-weight: 700;
+} */
+
+
+@font-face {
+    font-family: "PTSans";
+    src: url(../fonts/PTSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url(../fonts/PTSans-Bold.ttf);
+    font-weight: 700;
+}

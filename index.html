@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/icons/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <div class="container">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="img/icons/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="header-right">
+                    <ul class="header__list">
+                        <li class="header__item-lang header__item-lang-ru">
+                            <a href="#!" id="ru" class="translate active">Русский</a>
+                            <ul class="nav-dropdown">
+                                <li class="header__item-lang header__item-lang-uz">
+                                    <a href="#!" id="uz" class="translate">Ўзбек</a>
+                                </li>
+                                <li class="header__item-lang header__item-lang-uz">
+                                    <a href="#!" id="o'z" class="translate">O'zbek</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="header-contacts">
+                        <a href="tel:+998909000000" class="header-contact">(90)-900-90-90</a>
+                        <a href="#form" class="header-contact lang" key="send">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="banner">
+            <div class="container">
+                <div class="banner-contant">
+                    <h1 class="banner-title lang animate__animated animate__heartBeat animate__delay-1s"
+                        key="bannerTitle">Регистрация Товарных Знаков в Узбекистане</h1>
+                    <p class="banner-txt lang animate__animated animate__heartBeat animate__delay-1s" key="bannerTxt">
+                        Регистрация товарных знаков, патентов и авторских прав
+                    </p>
+                    <a href="#form" class="banner-btn lang animate__animated animate__heartBeat animate__delay-1s"
+                        key="send">Оставить заявку</a>
+                </div>
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_rrw4rw07.json"
+                    background="transparent" class="banner-img" speed="0.8" loop autoplay></lottie-player>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="about__title lang" key="featureTitle">
+                    Наши преимущества
+                </h2>
+                <div class="about__cards">
+                    <div class="about__card">
+                        <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_fvfq2crq.json"
+                            background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
+                        </lottie-player>
+                        <p class="about__content">
+                            Полная прозрачность - никаких скрытых платежей и доплат.
+                        </p>
+                    </div>
+                    <div class="about__card">
+                        <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_oynghtxw.json"
+                            background="transparent" speed="0.5" style="width: 100px; height: 100px;" loop autoplay>
+                        </lottie-player>
+                        <p class="about__content">
+                            Подача заявки на регистрацию за 24 часа!
+                        </p>
+                    </div>
+                    <div class="about__card">
+                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_sgrmh9rd.json"
+                            background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
+                        </lottie-player>
+                        <p class="about__content">
+                            Заключение официального договора и частичная предоплата.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="price">
+            <div class="container">
+                <h2 class="price-title about__title lang" key="priceTitle">
+                    Выберите услугу по регистрации Товарного Знака
+                </h2>
+                <div class="price-cards">
+                    <div class="price-card">
+                        <div class="price-content">
+                            <div class="price-front">
+                                <h3 class="price-front-title">Экспресс-проверка</h3>
+                                <p class="price-front-price">Бесплатно</p>
+                            </div>
+                            <div class="price-back">
+                                <h3 class="price-front-title">Экспресс-проверка</h3>
+                                <ul class="price-front-list">
+                                    <li class="price-front-item">
+                                        - Проведение предварительного поиска по открытой базе АИС РУз по
+                                        зарегистрированным товарным знакам
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-content">
+                            <div class="price-front">
+                                <h3 class="price-front-title">Полная Проверка</h3>
+                                <p class="price-front-price">от 990 000 сум</p>
+                            </div>
+                            <div class="price-back">
+                                <ul class="price-front-list">
+                                    <li class="price-front-item">
+                                        - Бесплатная консультация при встрече/онлайн/по телефону
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Выявление тождественных и сходных обозначений и иных препятствующих
+                                        регистрации товарных знаков
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Проведение комплексного поиска в базе ранее зарегистрированных товарных знаков
+                                        и заявок поданных на регистрацию
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Составление детального отчета содержащего сведения о владельцах и дате
+                                        регистрации всех схожих товарных знаков
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Предоставление консультации по преодолению возможных препятствий
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-content">
+                            <div class="price-front">
+                                <h3 class="price-front-title">Регистрация товарного знака "Под ключ"</h3>
+                                <p class="price-front-price">от 2 800 000 сум</p>
+                            </div>
+                            <div class="price-back">
+                                <ul class="price-front-list">
+                                    <li class="price-front-item">
+                                        - Все услуги пакета "Полная Проверка"
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Оценка шансов на успешное прохождение знака
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Подготовка пакета необходимых документов, включая заявку и надлежащий подбор
+                                        классов международной классификации товаров и услуг (МКТУ)
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Полное отслеживание всех этапов регистрации и осуществление коммуникации и
+                                        официальной переписки с уполномоченным государственным органом
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Получение свидетельства на товарный знак
+                                    </li>
+                                    <li class="price-front-item">
+                                        - Предоставление рекомендаций, связанных с защитой прав ИС
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="timeline">
+            <h2 class="price-title about__title lang" key="priceTitle">
+                Как работают Патентные Поверенные
+            </h2>
+            <ul>
+                <li>
+                    <div>
+                        <time>Первичная консультация</time> Патентные Поверенные 7Experts получают от Вас необходимую
+                        информацию об объекте, который Вы планируете зарегистрировать, и предоставляют консультацию и
+                        рекомендации по всем интересующим Вас вопросам.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Предварительная проверка вашего знака по официальным базам данных</time> Проверка нужна
+                        для того, чтобы определить вероятность успешной регистрации Вашего товарного знака. Для этого мы
+                        производим поиск по базе товарных знаков Узбекистана и международной базе товарных знаков —
+                        выявляем все тождественные или схожие товарные знаки. На основе полученных данных мы
+                        предоставляем Вам экспертное мнение — каковы шансы успешной регистрации Вашего товарного знака.
+                        Мы беремся за регистрацию только в том случае, когда уверены в положительном результате.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Подготовка пакета необходимых документов</time>
+                        Патентные Поверенные 7Experts готовят заявление на регистрацию, осуществляют надлежащий подбор
+                        классов международной классификации товаров и услуг (МКТУ), необходимые для регистрации Вашего
+                        товарного знака. Все документы проходят несколько уровней проверки.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Расчет официального тарифа</time>
+                        После того, как документы готовы, мы производим расчет и сообщаем клиенту размер официального
+                        тарифа, уплачиваемого в Ведомство за подачу заявки и экспертизы на товарный знак.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Отправка документов в уполномоченный государственный орган</time>
+                        Перед отправкой документов мы повторно проверяем всю документацию и только после этого
+                        направляем корреспонденцию в АИС РУз.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Контроль проведения экспертизы Вашего товарного знака на всех этапах регистрации</time>
+                        Отдел экспертизы АИС РУз направляет в наш адрес уведомления, запросы и решения, связанные с
+                        Вашим товарным знаком. Мы в свою очередь уведомляем вас о ходе делопроизводства и направляем Вам
+                        копии всех документов из АИС РУз. Мы самостоятельно готовим все ответы на запросы АИС РУз,
+                        которые возникают в процессе экспертизы.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Получение и передача свидетельства о регистрации</time>
+                        АИС РУз выносит решение о регистрации товарного знака. В свою очередь Патентный Поверенный
+                        7Experts готовит необходимые заявления и через месяц вы получаете Свидетельство на Ваш товарный
+                        знак. С этого момента Ваш бренд находится под защитой и его использование третьими лицами может
+                        быть только с Вашего разрешения.
+                    </div>
+                </li>
+                <!-- <li>
+                    <div>
+                        <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget
+                        porta faucibus, euismod quis ante.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a
+                        tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse
+                        varius volutpat mattis. Vestibulum id magna est.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse
+                        varius volutpat mattis. Vestibulum id magna est.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse
+                        varius volutpat mattis. Vestibulum id magna est.
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+        <section class="faqs">
+            <h2 class="price-title about__title lang" key="priceTitle">
+                Популярные вопросы
+            </h2>
+            <div class="container">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            Что входит в предварительный поиск на тождество и сходство с ранее зарегистрированными
+                            товарными знаками?
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                Что входит в предварительный поиск на тождество и сходство с ранее зарегистрированными
+                                товарными знаками?<br>
+                                - Проведение комплексного поиска в базе ранее зарегистрированных товарных знаков на
+                                территории Республики Узбекистан<br>
+                                - Выявление похожих товарных знаков, препятствующих регистрации товарных знаков<br>
+                                - Составление отчета о предварительном поиске с указанием всех схожих товарных
+                                знаков<br>
+                                - Представление консультации по преодолению возможных препятствий по регистрации
+                                товарного знака<br>
+
+                                По результатам проведенного предварительного поиска Вы получаете детальный письменный
+                                отчет, содержащий все выявленные схожие товарные знаки и заявки, и рекомендации наших
+                                патентных поверенных.<br>
+
+                                Процедура регистрации товарного знака занимает в среднем 7-8 месяцев и состоит из подачи
+                                заявки на регистрацию и ее рассмотрения со стороны уполномоченного государственного
+                                органа (проведение формальной и научно-технической экспертизы).<br>
+
+                                Сроки регистрации товарного знака и получения свидетельства могут быть сокращены до 1
+                                месяца при условии отсутствия запроса дополнительных материалов со стороны
+                                уполномоченного государственного органа.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            Что включает полный комплекс услуг по регистрации товарного знака?
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                - Оценка шансов на успешную регистрацию обозначения<br>
+                                - Подготовка пакетов необходимых документов, включая заявку и подбор перечня товаров и
+                                услуг по международной классификации товаров и услуг (МКТУ)<br>
+                                - Полное отслеживание всех этапов регистрации и осуществление коммуникации и официальной
+                                переписки с уполномоченным государственным органом<br>
+                                - Предоставление устных рекомендаций, связанных с защитой товарного знака
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            Какую выгоду от регистрации товарного знака вы получаете?
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                - Надежная защита имени, логотипа и бренда<br>
+                                - Безопасность ваших вложений и бизнеса<br>
+                                - Активное развитие и продвижение бренда<br>
+                                - Возможность масштабирования бизнеса путем создания франшизы и выдачи лицензий<br>
+                                - Рост деловой репутации среди конкурентов<br>
+                                - Узнаваемость среди потребителей ваших товаров и услуг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            Сколько времени занимает регистрация товарного знака?
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                Срок регистрации товарного знака в среднем занимает 7-8 месяцев. Данный срок обусловлен
+                                действующим законодательством Узбекистана и международными соглашениями. Однако:
+                                Ключевое значение имеет дата подачи заявки на товарный знак, которая юридически
+                                гарантирует получения «приоритета» в товарном знаке. С этого момента Вы можете начать
+                                его использование, рекламу, производство, оказание услуг и т.д. .
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            В случае ликвидации моей компании, могу ли я переоформить знак на другого владельца
+                            (правообладателя)?
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                Безусловно, права на товарный знак могут быть переоформлены на другое лицо в любое время
+                                до ликвидации компании.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            На какой территории охраняется товарный знак после регистрации?
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                После регистрации товарного знака Вы будете иметь исключительное право на использование обозначения на территории Республики Узбекистан. Для получения охраны в других странах необходимо дополнительно подать заявку на регистрацию Вашего товарного знака в патентные ведомства других стран, либо расширить охрану своего товарного знака на другие страны путем специальной процедуры. Специалисты 7Experts могут «под ключ» зарегистрировать товарный знак в любой стране мира.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-item-header">
+                            Можно ли внести товарный знак в уставный капитал компании и увеличить тем самым ее капитализацию?
+                        </div>
+                        <div class="accordion-item-body">
+                            <div class="accordion-item-body-content">
+                                Патентные Поверенные 7Experts помогут провести оценку Вашего товарного знака и оказать все необходимые услуги, связанные с внесением товарного знака в уставный капитал Вашей компании.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Наше адрес</h4>
+                                <a href="https://goo.gl/maps/guhWJyq71w2ZWB4o6"> г. Ташкент, Чупон ота 28 А</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Позвоните нам</h4>
+                                <a href="tel:+998900000000">+998 90 000-00-00</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Напишите нам</h4>
+                                <a href="mailto:info@7experts.uz">info@7experts.uz</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-center margin-0-auto">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022 ООО "7Experts"</p>
+                        </div>
+                        <div class="copyright-text">
+                            <p>Powered by <a href="https://alo5.uz">a'lo5</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="libs/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
