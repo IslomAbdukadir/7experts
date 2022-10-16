@@ -143,10 +143,10 @@ a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-orient: vertical;
+    /* -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: column; */
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -411,10 +411,10 @@ section {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 0;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    bottom: 30%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -428,36 +428,38 @@ section {
     width: 400px;
     padding: 15px;
     background: var(--accent);
+    border-radius: 10px;
+    text-align: center;
 }
 
-.timeline ul li div::before {
+/* .timeline ul li div::before {
     content: "";
     position: absolute;
     bottom: 7px;
     width: 0;
     height: 0;
     border-style: solid;
-}
+} */
 
 .timeline ul li:nth-child(odd) div {
     left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {
+/* .timeline ul li:nth-child(odd) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent var(--accent) transparent transparent;
-}
+} */
 
 .timeline ul li:nth-child(even) div {
     left: -439px;
 }
 
-.timeline ul li:nth-child(even) div::before {
+/* .timeline ul li:nth-child(even) div::before {
     right: -15px;
     border-width: 8px 0 8px 16px;
     border-color: transparent transparent transparent var(--accent);
-}
+} */
 
 time {
     display: block;

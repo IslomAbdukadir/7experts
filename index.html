@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="img/icons/logo.svg" type="image/x-icon">
+    <title>7Experts</title>
+    <link rel="shortcut icon" href="img/icons/favicon2.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -37,8 +37,18 @@
                         </li>
                     </ul>
                     <div class="header-contacts">
-                        <a href="tel:+9989947878778" class="header-contact">(94)-787-87-78</a>
-                        <a href="#form" class="header-contact lang" key="send">Оставить заявку</a>
+                        <a href="tel:+9989947878778" class="header-contact">
+                            <!-- (94)-787-87-78 -->
+                            <lottie-player src="img/phone.json" background="transparent" speed="1"
+                                style="width: 50px; height: 50px;" loop hover>
+                            </lottie-player>
+                        </a>
+                        <a href="#form" class="header-contact">
+                            <!-- Оставить заявку -->
+                            <lottie-player src="img/mail.json" background="transparent" speed="0.5"
+                                style="width: 50px; height: 50px;" loop hover>
+                            </lottie-player>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -70,7 +80,7 @@
                         <lottie-player src="img/sale.json" background="transparent" speed="1"
                             style="width: 100px; height: 100px;" loop autoplay>
                         </lottie-player>
-                        <p class="about__content">
+                        <p class="about__content lang" key="feature1">
                             Компетентность, оперативность, прозрачность.
                         </p>
                     </div>
@@ -78,7 +88,7 @@
                         <lottie-player src="img/time.json" background="transparent" speed="0.5"
                             style="width: 100px; height: 100px;" loop autoplay>
                         </lottie-player>
-                        <p class="about__content">
+                        <p class="about__content lang" key="feature2">
                             Подача заявки на регистрацию за 24 часа!
                         </p>
                     </div>
@@ -86,11 +96,18 @@
                         <lottie-player src="img/list.json" background="transparent" speed="1"
                             style="width: 100px; height: 100px;" loop autoplay>
                         </lottie-player>
-                        <p class="about__content">
-                            Заключение договора и обеспечение полной конфиденцальности.
+                        <p class="about__content lang" key="feature3">
+                            Заключение договора и обеспечение полной конфиденциальности.
                         </p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <h2 class="about__title lang" key="blogTitle">
+                    Услуги Патентных Поверенных в области защиты Товарных Знаков
+                </h2>
             </div>
         </section>
         <section class="price">
@@ -102,12 +119,12 @@
                     <div class="price-card">
                         <div class="price-content">
                             <div class="price-front">
-                                <h3 class="price-front-title">Консультация</h3>
-                                <p class="price-front-price">Бесплатно</p>
+                                <h3 class="price-front-title lang" key="priceTitle1">Консультация</h3>
+                                <p class="price-front-price lang" key="priceNum1">Бесплатно</p>
                             </div>
                             <div class="price-back">
                                 <ul class="price-front-list">
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent1">
                                         Предоставление бесплатной консультации по телефону либо в офисе компании по
                                         разъяснению порядка регистрации
                                     </li>
@@ -118,21 +135,21 @@
                     <div class="price-card">
                         <div class="price-content">
                             <div class="price-front">
-                                <h3 class="price-front-title">Предварительная проверка</h3>
-                                <p class="price-front-price">от 900 000 сум</p>
+                                <h3 class="price-front-title lang" key="priceTitle2">Предварительная проверка</h3>
+                                <p class="price-front-price lang" key="priceNum2">от 900 000 сум</p>
                             </div>
                             <div class="price-back">
                                 <ul class="price-front-list">
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent2">
                                         - Проведение поиска зарегистрированных товарных знаков или заявок которые ещё не
                                         прошли стадю экспертизы для выявления тождественных и сходных знаков
                                     </li>
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent3">
                                         - Поиск проводится по национальной базе товарных знаков, по международной базе
                                         Всемирной организации интеллектуальной собственности, а также по открытым
                                         ресурсам если интернета
                                     </li>
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent4">
                                         - Консультация с заявителем для выбора лучшего варианта подачи заявки
                                     </li>
                                 </ul>
@@ -142,27 +159,27 @@
                     <div class="price-card">
                         <div class="price-content">
                             <div class="price-front">
-                                <h3 class="price-front-title">Регистрация товарного знака с сопровождением</h3>
-                                <p class="price-front-price">от 2 500 000 сум</p>
+                                <h3 class="price-front-title lang" key="priceTitle3">Регистрация товарного знака с сопровождением</h3>
+                                <p class="price-front-price lang" key="priceNum3">от 2 500 000 сум</p>
                             </div>
                             <div class="price-back">
                                 <ul class="price-front-list">
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent5">
                                         - Полная проверка
                                     </li>
-                                    <li class="price-front-item">
-                                        - Консультация по решению выявленны проблем
+                                    <li class="price-front-item lang" key="priceContent6">
+                                        - Консультация по решению выявленных проблем
                                     </li>
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent7">
                                         - Подготовка заявки и согласование последней версии с заявителем
                                     </li>
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent8">
                                         - Подача заявки с пакетом необходимых документов
                                     </li>
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent9">
                                         - Консультация во всех этапах экспертизы
                                     </li>
-                                    <li class="price-front-item">
+                                    <li class="price-front-item lang" key="priceContent10">
                                         - Осуществление переписки с Агенством по интеллектуальной собственности
                                     </li>
                                 </ul>
@@ -174,7 +191,7 @@
         </section>
         <section class="before">
             <div class="container">
-                <h2 class="before-title about__title lang" key="priceTitle">
+                <h2 class="before-title about__title lang" key="brandTitle">
                     Вы хотите защитить свой бренд и продукцию?
                 </h2>
                 <div id="comparison">
@@ -186,7 +203,7 @@
             </div>
         </section>
         <section class="timeline">
-            <h2 class="price-title about__title lang" key="priceTitle">
+            <h2 class="about__title lang" key="timeTitle">
                 Осуществление деятельности специалистов компании 7Experts
             </h2>
             <ul>
@@ -405,7 +422,9 @@
                             </lottie-player>
                             <div class="cta-text">
                                 <h4>Наше адрес</h4>
-                                <a href="https://www.google.ru/maps/place/74+Babur+Street,+Tashkent,+Uzbekistan/@41.2711076,69.2574415,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8a9913a51559:0xd80432e3d094930b!8m2!3d41.2711076!4d69.2596302"> город Ташкент, Яккасарайский район, улица Бабура, 74</a>
+                                <a
+                                    href="https://www.google.ru/maps/place/74+Babur+Street,+Tashkent,+Uzbekistan/@41.2711076,69.2574415,17z/data=!3m1!4b1!4m5!3m4!1s0x38ae8a9913a51559:0xd80432e3d094930b!8m2!3d41.2711076!4d69.2596302">
+                                    город Ташкент, Яккасарайский район, улица Бабура, 74</a>
                             </div>
                         </div>
                     </div>
