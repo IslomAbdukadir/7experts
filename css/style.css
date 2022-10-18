@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import 'font.css';
 
 :root {
@@ -566,6 +566,11 @@ time {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 
+.accordion-item:hover .accordion-item-header::after {
+    color: var(--accent);
+    transition: .4s;
+}
+
 .accordion-item-header {
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
@@ -623,7 +628,7 @@ time {
 }
 
 #comparison figure {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-before.jpg);
+    background-image: url(../img/fake.png);
     background-size: cover;
     position: relative;
     font-size: 0;
@@ -638,7 +643,7 @@ time {
 }
 
 #comparison figure div {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-after.jpg);
+    background-image: url(../img/orginal.png);
     background-size: cover;
     position: absolute;
     width: 50%;
@@ -741,7 +746,7 @@ input[type=range]:focus::-moz-range-thumb {
     margin-bottom: 20px;
     font-size: 1.375rem;
     line-height: 2rem;
-    color: #1baf5e;
+    color: var(--accent);
     font-weight: 700;
     width: 100%;
 }
