@@ -886,6 +886,22 @@ input[type=range]:focus::-moz-range-thumb {
 
 /* why end */
 
+/* blog start */
+
+.blog-cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.blog-video {
+    width: 600px;
+    height: 450px;
+}
+
+/* blog end */
+
 /* footer start */
 
 .row {
