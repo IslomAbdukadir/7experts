@@ -70,7 +70,7 @@ var arrLang = {
     "contant5": "Безусловно, права на товарный знак могут быть переоформлены на другое лицо в любое время до ликвидации компании.",
     "contant6": "После регистрации товарного знака Вы будете иметь исключительное право на использование обозначения на территории Республики Узбекистан. Для получения охраны в других странах необходимо дополнительно подать заявку на регистрацию Вашего товарного знака в патентные ведомства других стран, либо расширить охрану своего товарного знака на другие страны путем специальной процедуры. Специалисты 7Experts могут «под ключ» зарегистрировать товарный знак в любой стране мира.",
     "contant7": "Патентные Поверенные 7Experts помогут провести оценку Вашего товарного знака и оказать все необходимые услуги, связанные с внесением товарного знака в уставный капитал Вашей компании.",
-    "blogTitle" : "Нащ блог"
+    "blogTitle": "Нащ блог"
   },
   "uz": {
     "send": "Ариза юбормоқ",
@@ -143,7 +143,7 @@ var arrLang = {
     "contant5": "Aлбатта, товар белгисига бўлган ҳуқуқлар компания тугатилгунга қадар исталган вақтда бошқа шахсга ўтказилиши мумкин.",
     "contant6": "Товар белгисини рўйхатдан ўтказганингиздан сўнг, сиз Ўзбекистон Республикаси ҳудудида ушбу белгидан фойдаланишнинг мутлақ ҳуқуқига ега бўласиз. Бошқа мамлакатларда ҳимоя олиш учун сиз ўз товар белгисини бошқа давлатларнинг патент идораларига рўйхатдан ўтказиш учун қўшимча ариза беришингиз ёки товар белгисини ҳимоя қилишни бошқа мамлакатларга махсус тартиб орқали кенгайтиришингиз керак. 7Experts товар белгисини дунёнинг исталган давлатида калит таслим асосида рўйхатдан ўтказишлари мумкин.",
     "contant7": "7Experts Патент Aдвокатлари сизнинг товар белгисини баҳолашда ёрдам беради ва компаниянгизнинг устав капиталига товар белгисини киритиш билан боғлиқ барча зарур хизматларни тақдим етади.",
-    "blogTitle" : "Бизнинг сахифамиз"
+    "blogTitle": "Бизнинг сахифамиз"
   },
   "o'z": {
     "send": "Ariza yubormoq",
@@ -216,7 +216,7 @@ var arrLang = {
     "contant5": "Albatta, tovar belgisiga bo'lgan huquqlar kompaniya tugatilgunga qadar istalgan vaqtda boshqa shaxsga o'tkazilishi mumkin.",
     "contant6": "Tovar belgisini ro'yxatdan o'tkazganingizdan so'ng, siz O'zbekiston Respublikasi hududida ushbu belgidan foydalanishning mutlaq huquqiga ega bo'lasiz. Boshqa mamlakatlarda himoya olish uchun siz o'z tovar belgisini boshqa davlatlarning patent idoralariga ro'yxatdan o'tkazish uchun qo'shimcha ariza berishingiz yoki tovar belgisini himoya qilishni boshqa mamlakatlarga maxsus tartib orqali kengaytirishingiz kerak. 7Experts tovar belgisini dunyoning istalgan davlatida kalit taslim asosida ro‘yxatdan o‘tkazishlari mumkin.",
     "contant7": "7Experts Patent Advokatlari sizning tovar belgisini baholashda yordam beradi va kompaniyangizning ustav kapitaliga tovar belgisini kiritish bilan bog'liq barcha zarur xizmatlarni taqdim etadi.",
-    "blogTitle" : "Bizning saxifamiz",
+    "blogTitle": "Bizning saxifamiz",
   }
 };
 
@@ -301,3 +301,23 @@ var divisor = document.getElementById("divisor"),
 function moveDivisor() {
   divisor.style.width = slider.value + "%";
 }
+
+// swiper
+
+const swiper = new Swiper('.swiper', {
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true
+  },
+
+  clickable: true,
+
+  slidesPerView: 2,
+  centeredSlides: true,
+  spaceBetween: 10,
+
+});

@@ -114,6 +114,11 @@
         width: 512px;
         height: 400px;
     }
+
+    .blog-video {
+        width: 480px;
+        height: 400px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -158,6 +163,11 @@
     .why-desc {
         width: 446px;
         height: 400px;
+    }
+
+    .blog-video {
+        width: 400px;
+        height: 360px;
     }
 }
 
@@ -211,6 +221,11 @@
     .cta-text h4 {
         font-size: 18px;
     }
+
+    .blog-video {
+        width: 380px;
+        height: 360px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -232,11 +247,21 @@
     .center {
         padding: unset;
     }
+
+    .blog-video {
+        width: 370px;
+        height: 360px;
+    }
 }
 
 @media (max-width: 684px) {
     .container {
         max-width: 576px;
+    }
+
+    .blog-video {
+        width: 320px;
+        height: 300px;
     }
 }
 
@@ -250,8 +275,8 @@
     }
 
     .blog-video {
-        width: 500px;
-        height: 400px;
+        width: 270px;
+        height: 250px;
     }
 }
 
@@ -273,7 +298,8 @@
     }
 
     .blog-video {
-        width: 414px;
+        width: 230px;
+        height: 240px;
     }
 }
 
@@ -312,9 +338,17 @@
         font-size: 16px;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
+    .swiper-slide {
+        width: 360px !important;
+    }
+
     .blog-video {
-        width: 390px;
-        height: 360px;
+        width: 350px;
+        height: 300px;
     }
 }
 
@@ -343,15 +377,6 @@
     .contacts__form input {
         padding: 10px;
     }
-
-    .blog-cards {
-        gap: 30px;
-    }
-
-    .blog-video {
-        width: 360px;
-        height: 360px;
-    }
 }
 
 @media (max-width: 360px) {
@@ -363,11 +388,6 @@
     .price-back {
         font-size: 24px;
     }
-
-    .blog-video {
-        width: 320px;
-        height: 320px;
-    }
 }
 
 @media (max-width: 320px) {
@@ -377,10 +397,5 @@
 
     .price-front-item {
         font-size: 16px;
-    }
-
-    .blog-video {
-        width: 300px;
-        height: 280px;
     }
 }
