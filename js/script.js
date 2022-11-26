@@ -314,10 +314,17 @@ const swiper = new Swiper('.swiper', {
     clickable: true
   },
 
-  clickable: true,
+  slidesPerView: 3,
+  spaceBetween: 5,
 
-  slidesPerView: 2,
-  centeredSlides: true,
-  spaceBetween: 10,
+  breakpoints: {
+    
+    '1140': {
+      slidesPerView: 3,
+    },
+    '576': {
+      slidesPerView: 2,
+    },
+  },
 
 });

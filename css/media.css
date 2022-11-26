@@ -27,6 +27,11 @@
     .why-desc {
         padding: 0 0 0 25px;
     }
+
+    .blog-video {
+        width: 460px;
+        height: 450px;
+    }
 }
 
 @media (max-width: 1336px) {
@@ -50,6 +55,11 @@
 
     .why-desc-item {
         margin: 0px 0 5px 0;
+    }
+
+    .blog-video {
+        width: 440px;
+        height: 450px;
     }
 }
 
@@ -87,6 +97,11 @@
         -ms-flex-pack: center;
         justify-content: center;
     }
+
+    .blog-video {
+        width: 420px;
+        height: 420px;
+    }
 }
 
 @media (max-width: 1140px) {
@@ -116,7 +131,7 @@
     }
 
     .blog-video {
-        width: 480px;
+        width: 370px;
         height: 400px;
     }
 }
@@ -128,6 +143,11 @@
 
     .banner-img {
         max-width: 550px;
+    }
+
+    .blog-video {
+        width: 480px;
+        height: 430px;
     }
 }
 
@@ -166,8 +186,8 @@
     }
 
     .blog-video {
-        width: 400px;
-        height: 360px;
+        width: 470px;
+        height: 390px;
     }
 }
 
